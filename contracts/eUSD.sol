@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.28;
 
 interface IERC20 {
     function transferFrom(address sender, address recipient, uint256 amount) external returns (bool);
@@ -8,7 +8,7 @@ interface IERC20 {
 contract eUSD {
     string public name = "eUSD";
     string public symbol = "EUSD";
-    uint8 public decimals = 18;
+    uint8 public decimals = 6;
 
     uint256 public totalSupply;
     mapping(address => uint256) public balanceOf;
