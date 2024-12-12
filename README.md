@@ -1,4 +1,4 @@
-# eUSD: A 1:1 USD Fiat-Stable Crypto Token
+# eUSD: A 1:1 USD Fiat Stablecoin
 ## Overview
 
 eUSD is a token that mirrors the value of the US Dollar (USD) at a 1:1 ratio by requiring the burning of a corresponding amount of an existing USD-based token (like USDT) to mint new eUSD tokens.
@@ -15,8 +15,5 @@ No Backing
 
 There’s no "reserve" managed by a central party. The act of burning USDT ensures that for every eUSD in circulation, 1 USDT was destroyed.
 
-The concept relies on social consensus that eUSD maintains a 1:1 peg to USD via this mechanism.
 
-
-
-This means we can trade with the USD without any regulations, boundaries or limits; all through the safety of blockchain.
+Free trade with the eUSD without any regulations, boundaries or limits; all through the safety and reliability of blockchain.
