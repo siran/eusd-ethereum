@@ -1,13 +1,12 @@
 const { ethers } = require("hardhat");
 
 async function main() {
-  const USDT_ADDRESS = "0x7d713915d029f8BD10E0Cf181dF6449ac93dffC2";
+  // Mainnet USDT address
+  const USDT_ADDRESS = "0xdAC17F958D2ee523a2206206994597C13D831ec7";
   const EUSD = await ethers.getContractFactory("eUSD");
   const eusd = await EUSD.deploy(USDT_ADDRESS);
-  await eusd.waitForDeployment(); // replaces eusd.deployed()
-
-  const address = await eusd.getAddress();
-  console.log("eUSD deployed to:", address);
+  await eusd.waitForDeployment();
+  console.log("eUSD deployed to:", await eusd.getAddress());
 }
 
 main().catch((error) => {
