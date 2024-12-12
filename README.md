@@ -1,5 +1,4 @@
-# eUSD: A 1:1 USD Fiat-Stable Crypto Token (Proof-of-Concept)
-
+# eUSD: A 1:1 USD Fiat-Stable Crypto Token
 ## Overview
 
 eUSD is a token that mirrors the value of the US Dollar (USD) at a 1:1 ratio by requiring the burning of a corresponding amount of an existing USD-based token (like USDT) to mint new eUSD tokens.
